@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2f3cf7;
+    background-image: url(images/gold-wall.jpg);
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.coin-container {
+    margin-bottom: 20px;
+    position: relative; /* Position for stars */
+    border-radius: 20px
+}
+
+.coin {
+    width: 500px;
+    height: 500px;
+    background-image: url(images/bitcoin-gold.png);
+    background-size: cover;
+    transition: transform 0.5s ease; /* Animation for coin flip */
+}
+
+@keyframes star-animation {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
