@@ -1,12 +1,7 @@
 function flipCoin() {
     const resultElement = document.getElementById('result');
     const coinElement = document.getElementById('coin');
-    const starsContainer = document.getElementById('stars');
-
-    // Remove existing stars
-    while (starsContainer.firstChild) {
-        starsContainer.removeChild(starsContainer.firstChild);
-    }
+    
 
     // Randomly generate 0 or 1 for heads or tails
     const randomNumber = Math.floor(Math.random() * 2);
