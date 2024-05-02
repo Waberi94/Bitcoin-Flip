@@ -1,4 +1,4 @@
-# YOUR PROJECT TITLE: Coin Flip
+# YOUR PROJECT TITLE: Bitcoin-Flip
 #### Video Demo:  <https://www.youtube.com/watch?v=W-HrmXEGxwI&ab_channel=bar0uu>
 #### Description:
 
